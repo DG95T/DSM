@@ -1,0 +1,150 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header{
+    background: #a1015e;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.personal{  /*Todo esto llevara*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:20px
+}
+
+h2{
+    color: #a1015e;
+    text-align: center;
+    top: 25px; 
+    left: 10px; 
+    position: relative; 
+    display: inline;
+    
+    /*Para que se vea bonito jsjsjs*/
+    border:2px solid #a1015e;
+    border-radius: 8px;
+    background-color: #fff;
+    z-index: 1;
+}
+.datos{
+    display: flex;
+    font-size: small;
+    border: #a1015e solid 2px;
+    position: relative; 
+    margin: 10px;;
+    width: 100%;
+    height: 70px;
+}
+
+.Orden{
+    display: flex;
+    font-size: small;
+    border: #a1015e solid 2px;
+    position: relative; 
+    margin: 10px;;
+    width: 100%;
+    height: 70px;
+    background: #a1015e;
+    color: #fff;
+    text-align: center;
+}
+
+.Laboral{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:20px
+}
+
+#Educacion{
+    display: flex;
+    font-size: small;
+    border: #a1015e solid 2px;
+    position: relative; 
+    margin: 10px;;
+    width: 100%;
+    height: 70px;
+}
+
+.EyF{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:20px
+}
+
+nav{
+    background: #a1015e;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+    
+
+li{
+    display: flex;
+    font-size: small;
+    border: #a1015e solid 2px;
+    position: relative; 
+    margin: auto;;
+    width: 100%;
+    height: 70px;
+}
+
+.Capacidades{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:20px
+}
+
+.Tecnicas{
+    display: flex;
+    font-size: small;
+    border: #a1015e solid 2px;
+    position: relative; 
+    margin: 10px;;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background: #a1015e;
+    color: #fff;
+}
+
+.Permiso{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:20px
+}
+
+#Texto{
+    display: flex;
+    font-size: small;
+    border: #a1015e solid 2px;
+    position: relative; 
+    margin: 10px;;
+    width: 100%;
+    height: 70px;
+}
+
+footer h2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:20px
+}
+
+footer p{
+    display: flex;
+    font-size: small;
+    border: #a1015e solid 2px;
+    position: relative; 
+    margin: 10px;;
+    width: 100%;
+    height: 70px;
+    background: #a1015e;
+    color: #fff;
+}
