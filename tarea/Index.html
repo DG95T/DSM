@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diccionario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <p>Este es el encabezado para la tarea del pdf. <br>
+        Este trabajo está utilizando DIVS y aquí se utilizó br para el salto de línea</p>
+    </div>
+    <div class="body">
+        <div class="strong">
+            Este es un <strong>ejemplo de strong</strong>
+        </div>
+        <div class="span">
+            Aqui no tiene span<span class="Afirmacion"> Aquí sí</span> Y aquí ya no.
+        </div>
+        <div class="enfasis">
+            Este es un <em>ejemplo de énfasis</em>
+        </div>
+        <div class="small">
+            Este es un <small>ejemplo de small</small>
+        </div>
+        <div class="s">
+            La s tacha las palabras, como <s>estas de aquí</s>
+        </div>
+        <div class="cite">
+            <cite>Ejemplo de cita textal</cite> Sirve para hacer citas textuales
+        </div>
+        <div class="definition">
+            Ejemplo de definicion <dfn>HTML</dfn> significa HiperText Markup Language
+        </div>
+        <div class="abbreviation">
+            La abreviación para amo la vida es <abbr title="Amo la vida">ALV</abbr>
+        </div>
+        <div class="time">
+            La etiqueta time puede mostrar fecha y/u hora <br>
+            Hoy es <time datetime="2023-06-05">cinco de junio de 2023</time>
+            Y son las <time datetime="HH:MM">07:17</time> de la noche
+        </div>
+        <div class="kbd">
+            La etiqueta <kbd>kbd</kbd> sirve para indicar un tipo de letras se tocan en el teclado
+        </div>
+        <div class="sub">
+            Esta etiqueta sirve para marcar un subindice <sub>Como esta</sub>
+        </div>
+        <div class="sup">
+            Esta etiqueta sirve para marcar un subindice <sup>Como esta</sup>
+        </div>
+        <div class="i">
+            Sirve para indicar tecnisismos en el texto <i>Parangaricutirimicuaro</i>
+        </div>
+        <div class="b">
+            Sirve para marcar palabras clave. Es otra manera de usar <b>negritas</b>
+        </div>
+        <div class="mark">
+            Es la funcion de  <mark>marcatexto</mark>
+        </div>
+        <div class="img">
+            Aqui agregamos una imagen. El atributo src indica la fuente (interna o externa; en este ejemplo es externa), <br>
+            mientras que el alt es para poner un texto alternativo poor si la  imagen no se llegara a mostrar por cualquier razón<br>
+            Tambien tenemos el atribito title, que es el texto que aparece  cuando dejamos el mouse encima de la imagen por un tiempo <br>
+            Tambien tenemos los atributos width y height en la imagen para controlar el ancho y el alto <br>
+            <img src="5f89c047322c2.jpeg" alt="Meme" title="Como este ejemplo" width="10%" height="10%"> <br>
+            <img src="608c00179c8d9.jpeg" alt="Meme">
+        </div>
+        <div class="hipertext">
+            <a href="https://www.w3schools.com/html/html_basic.asp" >W3School Curso de HTML</a>
+        </div>
+        <div class="del">
+            Sirve para tachar una palabra <del>Como estas</del>
+        </div>
+        <div class="ins">
+            Sirve para mostrar si un contenido fue insertado, <ins>subraya el texto</ins>
+        </div>
+        <div class="Lists">
+            <div class="ordered">
+                <ol>
+                    <li>Lista ordenada</li>
+                    <li>Lista ordenada</li>
+                </ol>
+            </div>
+            <div class="unordered">
+                <ul>
+                    <li>Lista no ordenada</li>
+                    <li>Lista no ordenada</li>
+                </ul>
+            </div>
+            <div class="definitionlist">
+                <dl>Lista de definicion
+                    <dt>Titulo o palabra clave</dt>
+                    <dd>Y aqui va la definición</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="table">
+            <table border="1">
+                <caption>Esto es un caption</caption>
+                <thead>
+                    <tr>
+                        <th>col1</th>
+                        <th>col2</th>
+                        <th>col3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td>total</td>
+                        <td>21</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="forms">
+            <form action="ejemplo.php" method="get">
+                <fieldset>
+                    <legend>Datos personales FIELDSET Y LEGEND</legend>
+                    <p>ESCRIBIR Nombre: <input type="text" name="Nombre" size="40" placeholder="Nombre Completo"></p>
+                    <p>FECHA de nacimiento: <input type="date"></p>
+                </fieldset>
+                <label for="tiempo"><p>Se crea la etiqueta LABEL</p>
+                    <p>MES ACTUAL: <input type="month" name="mes" id="mes"></p>
+                    <p>SEMANA WEEK <input type="week" name="semana" id="semana"></p>
+                    <p>HORA <input type="time" name="hora" id="hora"></p>
+                </label>
+                <p>Sexo CHECK-RADIO: Hombre <input type="radio" name="hombre" id="H" required> Mujer  <input type="radio" name="mujer" id="M"></p>
+                <p>PASSWORD: <input type="password" name="contraseña" id="1" maxlength="15" minlength="5" placeholder="De 5 a 15 caracteres" size="20"></p>
+                <p>Escriba NUMERO de hijos: <input type="number" name="numero"></p>
+                <p>SEARCH por la palabra clave <input type="search" name="busqueda"></p>
+                <p>TELEFONO: <input type="tel" name="telefono" id="tel" maxlength="9" minlength="9"></p>
+                <p>URL:<input type="url" name="direccion" id="dir"></p>
+                <p>CORREO O EMAIL <input type="email" name="correo" id="Correo" size="40"></p>
+                <p>Terminos y condiciones leidos VERIFICACION <input type="checkbox" name="casilla"></p>
+                <p>Elige un COLOR: <input type="color" name="color" id="color"></p>
+                <p>Elige un RANGO <input type="range" name="rango" id="rango" min="0" max="10" step="1;"></p>
+                <p>Agregar ARCHIVO <input type="file" name="archivo"></p>
+                <p>Agregar IMAGEN con input <input type="image" src="5f89c047322c2.jpeg" alt="Meme" title="Como este ejemplo" width="10%" height="10%"></p>
+                <p>HIDDEN esta oculto<input type="hidden" name="oculto"></p>
+                <p><input type="text" name="texto" id="t" placeholder="No puedes cambiar esto" readonly></p>
+                <p><input type="submit" value="Enviar" disabled> <input type="reset" value="Borrar"> </p>
+            </form>
+            <textarea name="Cuadro de texto" id="a" cols="30" rows="10" placeholder="Hola mundo"></textarea>
+            <p>Que animal prefiere: </p>
+            <select name="menu" id="menu">
+                <option value="0">Perro</option>
+                <option value="1">Gato</option>
+                <option value="2">Marmota</option>
+            </select>
+        </div>
+        <div class="tabindex">
+            <p>Uso de tabindex para controlar el movimiento con la tecla tab</p>
+            <input type="text" name="Texto1" placeholder="Texto 1" tabindex="8">
+            <input type="text" name="Texto2" placeholder="Texto 2" tabindex="3">
+            <input type="text" name="Texto3" placeholder="Texto 3" tabindex="2">
+            <input type="text" name="Texto4" placeholder="Texto 4" tabindex="5">
+        </div>
+        <div class="button">
+            <p>Este utiliza el input tipe button</p>
+            <input type="button" value="Este botón no hace nada jeje">
+            <p>Este utiliza la etiqueta button</p>
+            <button type="button">
+                <img src="data:image/jpeg;base64,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" alt="Palomita" width="50px"> Picale a la palomita
+            </button>
+            <p>Esto mismo que se hizo con la etiqueta button type o el input type button se puede hacer con SUBMIT (enviar). Y también con RESET</p>
+            <input type="button" onclick="mensajescript('Usted ha pulsado el botón uno')" value="Boton misterioso">
+                <script>
+                    function mensajescript(text) {alert(text);}
+                </script>
+            <p>Segunda etiqueta</p>
+            <button type="button" onclick="mensajescript('Usted ha pulsado el botón dos')">
+                Boton misterioso numero dos
+            </button>
+                <script>
+                    function mensajescript(text) {alert(text);}
+                </script>
+        </div>
+        <div class="details-suummary">
+            <details>
+                <summary>Spoilers</summary>
+                <p>En la escena final el villano...</p>
+            </details>
+        </div>
+        <div class="dialog">
+            <dialog id="dialog1">
+                <h1>Titulo epico</h1>
+                <p>Hola mundo</p>
+                <input type="button" value="Cerrar" onclick="document.getElementById('dialog1').removeAttribute('open')">
+            </dialog>
+            <input type="button" value="Muestra dialogo" onclick="document.getElementById('dialog1').setAttribute('open','open')">
+        </div>
+        <div class="iframe">
+            <iframe src="https://www.w3schools.com/html/html_basic.asp" width="50%" height="50%"></iframe>
+        </div>
+        <div class="object">
+            <object data="pag2.html" type="text/html" style="width: 400px; height: 200px; background-color: rgb(205, 255, 238);">ERROR no puede mostrarse el objeto</object>
+        </div>
+        <div class="video">
+            <object data="https://www.youtube.com/watch?v=3c-iBn73dDE" type="application/x-shockwave-flash">
+                <param name="video" value="https://www.youtube.com/watch?v=3c-iBn73dDE"> ERROR no se puede mostrar objeto
+            </object>
+        </div>
+        <div class="pdf">
+            <object data="Material.Tema.2.2.pdf" type="application/pdf" width="50%" height="600px">
+            </object>
+        </div>
+    </div>
+</body>
+</html>
