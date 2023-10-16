@@ -1,0 +1,26 @@
+estructra de datos
+
+recursividad
+
+una funcion o metodo recursivo es aquel que se invoca a si mismo y depende de una condicion, ejemplo if, goto, whill, etc.
+
+consta de dos partes:
+base, la secuenciacion, iteracio condicional y seleccion son estructuras validas de control que pueden ser consideradas como enunciados.
+regla recursiva, las estructuras de control que se pueden formal convinando de manera valida la secuenciacion itelacion condicional y seleccion tambion son validos.
+
+tiene dos propositos, generar nuevos elementos y probar que un elemnto pertenece a un conjunto.
+
+recursividad indirecta: si una funcion se llama a si misma, incluye una referencia explicita a si misma. devolver(recursiva(...))
+recursividad indirecta: si una funcion puede llamarse a si misma indirectamente a traves de de una cadena de otra llamada, modulo llama a otro modulo de forma anidada y en la ultima llamada se llama al primero.
+
+de encabezado: la llamada se hace al principio del subprograma, de forma que el resto de las instrucciones se hagan despues d ela llamada recursiva o las instrucciones se hacen en orden inverso a la llamada.
+
+de tipo cola: uso de una sola llamada, recursiva al final del metodo, se hace al final dcel subprograma, dejando que las intrucciones se realicen antes.
+
+intermedia: las intrucciones aparecen tanto antes como despues de las llamadas.
+
+multiple: se producen varias llamadas recursivas en distintos puntos del subprograma.
+
+anidada: una fincion no solamente definida en terminos de si misma, sino tambien es usada como uno de los parametros.
+
+
